@@ -1,0 +1,152 @@
+[
+    {
+      "id": 1,
+      "name": "BENJI REGULAR FIT POLO",
+      "slug": "typicode",
+      "description": "Crafted from our brand new material, Tech Mesh Jersey, Benji is a polo shirt that is sure to stand out. This flexible and stretchy style boasts moisture-wicking and quick-drying capabilities, as well as a ribbed spread collar that features an eye-catching contrast stripe. Proudly finished with the iconic JL logo in a silicone print at the chest, we recommend that you create a cool and coordinated summer ensemble by styling the Benji Regular Fit Polo with the Logo Shorts in a complementing or clashing colorway.",
+      "price": 250,
+      "mainImg": "https://cdn.shopify.com/s/files/1/0674/3336/5782/products/42248a30f7c32c4d3d8b36ae12c676c3_003.jpg?v=1681961750",
+      "categoryId": 1,
+      "authorId": 1
+    },
+    {
+      "name": "TOUR TECH REG FIT POLO",
+      "slug": "typicode",
+      "description": "With its classic design and performance enhancing features, it’s no surprise the Tour Tech Polo is a best seller. Sewn from our premium fabric TX Jersey™, it has moisture-wicking properties, technical stretch and an extra soft feel that will make it your go-to shirt round after round.",
+      "price": "70",
+      "categoryId": 1,
+      "mainImg": "https://cdn.shopify.com/s/files/1/0674/3336/5782/products/69464d9d221e1a10efdf33517b15818f_003.jpg?v=1681956419&width=1200",
+      "id": 2,
+      "authorId": 1
+    },
+    {
+      "name": "TOUR TECH REG FIT PRINT POLO",
+      "slug": "typicode",
+      "description": "With its seasonal print and performance-enhancing features, it’s no surprise the Tour Tech Printed Polo is a best seller. Sewn from our premium fabric, TX Jersey™, it has moisture-wicking properties, technical stretch and an extra soft feel that will make it your go-to shirt round after round.",
+      "price": "80",
+      "categoryId": 1,
+      "mainImg": "https://cdn.shopify.com/s/files/1/0674/3336/5782/products/a90760755e2625d4f2134c81213b079d_003.jpg?v=1681955700&width=1200",
+      "id": 3,
+      "authorId": 1
+    },
+    {
+      "name": "TOUR TECH SLIM FIT POLO",
+      "slug": "typicode",
+      "description": "The slim-fit Tour Tech Polo is a best-selling shirt and for good reason. Sewn from our premium fabric, TX Jersey™, it has moisture wicking properties, technical stretch, and an extra soft feel that'll make it your favorite round after round. An embroidered logo on left collar and sleeve will have you looking like a tour player even if your scorecard doesn’t match",
+      "price": "70",
+      "categoryId": 3,
+      "mainImg": "https://cdn.shopify.com/s/files/1/0674/3336/5782/products/f4e339874691b2f27f419bc9a9875aa0_003.jpg?v=1680744812&width=1200",
+      "id": 4,
+      "authorId": 1
+    },
+    {
+      "name": "HEATH REGULAR FIT POLO",
+      "slug": "typicode",
+      "description": " A J.Lindeberg classic, the Heath Golf Polo is back for another season. Sewn from a premium technical stretch TX Jersey™ fabric, this regular-fit style has moisture wicking properties and an extra soft feel that will make it a favorite round after round.",
+      "price": "70",
+      "categoryId": "4",
+      "mainImg": "https://cdn.shopify.com/s/files/1/0674/3336/5782/products/15faadd527bd2b9929d3a2644fb468e4_003.jpg?v=1681956979&width=1200",
+      "id": 5,
+      "authorId": 1
+    },
+    {
+      "name": "ADE T-SHIRT LS",
+      "slug": "typicode",
+      "description": "The long-sleeved version of our Ade T-shirt is a simple yet classic piece that’s perfect no matter what sport you're playing. Crafted from our ever-popular TX Jersey fabric, this lightweight and soft-to-the-touch style is just the right choice for when the weather gets warm. With its long sleeves, quick-drying and moisture-wicking capabilities, this T-shirt has been proudly finished with the iconic JL logo at the chest. With six striking colors to choose from, we recommend you style with Elof Trousers from our collection in a complementing colorway.",
+      "price": "60",
+      "categoryId": 1,
+      "mainImg": "https://cdn.shopify.com/s/files/1/0674/3336/5782/products/89f72d1c07885d0674c5f404157e5965_003.jpg?v=1680744577&width=1200",
+      "id": 6,
+      "authorId": 1
+    },
+    {
+      "name": "TOUR TECH REG FIT PRINT POLO",
+      "slug": "typicode",
+      "description": "With its seasonal print and performance-enhancing features, it’s no surprise the Tour Tech Printed Polo is a best seller. Sewn from our premium fabric, TX Jersey™, it has moisture-wicking properties, technical stretch and an extra soft feel that will make it your go-to shirt round after round.",
+      "price": "80",
+      "categoryId": 3,
+      "mainImg": "https://cdn.shopify.com/s/files/1/0674/3336/5782/products/aabc3457be96c20e909ab85e73412645_003.jpg?v=1681956504&width=1200",
+      "id": 7,
+      "authorId": 1
+    },
+    {
+      "name": "ADE T-SHIRT",
+      "slug": "typicode",
+      "description": "The Ade T-shirt is a simple yet classic piece that’s perfect no matter what sport you're playing. Crafted from our ever-popular TX Jersey fabric, this lightweight and soft-to-the-touch style is just the right choice for when the weather gets warm. With its short sleeves, quick-drying and moisture-wicking capabilities, this T-shirt has been proudly finished with the iconic JL logo at the chest. With six striking colors to choose from, we recommend you style with Eloy shorts from our collection in a complementing colorway.",
+      "price": "40",
+      "categoryId": 2,
+      "mainImg": "https://cdn.shopify.com/s/files/1/0674/3336/5782/products/6a6ea47c2bc00c9d3bcf97218eccc8dd_003.jpg?v=1681955043&width=1200",
+      "id": 8,
+      "authorId": 1
+    },
+    {
+      "name": "JEFF GOLF POLO",
+      "slug": "typicode",
+      "description": "Ever a fan-favorite, the Jeff Golf Polo is one of our best-performing styles that’s back for another round, and this season… the bolder the better. It features the iconic JL logo in a contrasting cut-and-sewn design across the back and an embroidered logo on the collar, as well as panels of an eye-catching digital watercolor print that's exclusive to this season's Tour Collection. Sewn from TX Jersey™, it has great moisture-wicking properties and durable 4-way stretch to keep you cool and comfortable through every swing.",
+      "price": "100",
+      "categoryId": 3,
+      "mainImg": "https://cdn.shopify.com/s/files/1/0674/3336/5782/products/58f7ba7b59cd78797b3bb697c2732ab9_003.jpg?v=1680053136&width=1200",
+      "id": 9,
+      "authorId": 1
+    },
+    {
+      "name": "JEFF GOLF POLO",
+      "slug": "typicode",
+      "description": "Ever a fan-favorite, the Jeff Golf Polo is one of our best-performing styles that’s back for another round, and this season… the bolder the better. It features the iconic JL logo in a contrasting cut-and-sewn design across the back and an embroidered logo on the collar, as well as panels of an eye-catching digital watercolor print that's exclusive to this season's Tour Collection. Sewn from TX Jersey™, it has great moisture-wicking properties and durable 4-way stretch to keep you cool and comfortable through every swing.",
+      "price": "100",
+      "categoryId": 3,
+      "mainImg": "https://cdn.shopify.com/s/files/1/0674/3336/5782/products/fe5b15e8344663886ce13d66273873f6_003.jpg?v=1680053105&width=1200",
+      "id": 10,
+      "authorId": 1
+    },
+    {
+      "name": "ADE T-SHIRT",
+      "slug": "typicode",
+      "description": "The Ade T-shirt is a simple yet classic piece that’s perfect no matter what sport you're playing. Crafted from our ever-popular TX Jersey fabric, this lightweight and soft-to-the-touch style is just the right choice for when the weather gets warm. With its short sleeves, quick-drying and moisture-wicking capabilities, this T-shirt has been proudly finished with the iconic JL logo at the chest. With six striking colors to choose from, we recommend you style with Eloy shorts from our collection in a complementing colorway.",
+      "price": "40",
+      "categoryId": 2,
+      "mainImg": "https://cdn.shopify.com/s/files/1/0674/3336/5782/products/879dcf86588d3d0f968de349dba29f59_003.jpg?v=1681956834&width=1200",
+      "id": 11,
+      "authorId": 1
+    },
+    {
+      "name": "KIAN KNITTED SWEATER",
+      "slug": "typicode",
+      "description": "A favorite season and after season, this quarter-zip sweater is made from premium, fine merino wool. Finished with the JL logo at the chest, back, and sleeve, it has a classic look ready to be paired with all your favorite outfits. This golf essential is equipped with a quality pull zipper and a high collar for a look that will take you from the meeting room to the clubhouse.",
+      "price": "150",
+      "categoryId": 2,
+      "mainImg": "https://cdn.shopify.com/s/files/1/0674/3336/5782/products/fd11b38ddacf1d5de82e18ba30fccfb6_003.jpg?v=1681953145&width=1200",
+      "id": 12,
+      "authorId": 1
+    },
+    {
+      "name": "TOUR TECH LONG SLEEVE",
+      "slug": "typicode",
+      "description": " A long-sleeved version of our best-selling Tour Tech Polo, this classic style is designed for cold weather days. Sewn from our premium fabric TX Jersey™, it has moisture-wicking properties, technical stretch and a brushed inside to keep you warm and comfortable round after round.",
+      "price": "80",
+      "categoryId": 2,
+      "mainImg": "https://cdn.shopify.com/s/files/1/0674/3336/5782/products/aa8c17f53b77c193e5812df83f7009f9_003.jpg?v=1681956712&width=1200",
+      "id": 13,
+      "authorId": 1
+    },
+    {
+      "name": "HOPPER U SUPER LINEN BLAZER",
+      "slug": "typicode",
+      "description": "Nail the smart-casual dress code with the Hopper U Super Linen Blazer. With its slim fit and unconstructed design, this is modern tailoring for the modern man providing a flattering silhouette and features such as jetted pockets and a branded button closure. The stretchy linen fabric is designed for maximum comfort and movability, and its crease-resistant capabilities make it ideal for all your upcoming events. Style them with the matching Grant Super Linen Trousers for the full suit.",
+      "price": "460",
+      "categoryId": 2,
+      "mainImg": "https://cdn.shopify.com/s/files/1/0674/3336/5782/files/b9da5e2bf8eb49cf1950cd6d5c9bd239_003.jpg?v=1682473230&width=1200",
+      "id": 14,
+      "authorId": 1
+    },
+    {
+      "name": "BARON TENCEL LINEN SHORTS",
+      "slug": "typicode",
+      "description": "Introducing the cool and casual Baron shorts, crafted from a drapey linen blend to give you room to move whilst still looking sharp, this style is perfect for summer. The pressed creases and welt pockets provide a formal feel, whilst the elasticated waist gives this piece more of a laid-back look for the ideal blend of comfort and style. Create a cool and casual outfit by styling the Baron Tencel Linen Shorts with the matching Jackson Tencel Linen Jacket.",
+      "price": "140",
+      "categoryId": 2,
+      "mainImg": "https://cdn.shopify.com/s/files/1/0674/3336/5782/files/b9987a9d54e17378d6c56baaabe469eb_003.jpg?v=1682472460&width=1200",
+      "id": 15,
+      "authorId": 1
+    }
+  ]

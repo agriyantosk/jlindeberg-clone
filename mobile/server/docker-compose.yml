@@ -1,0 +1,28 @@
+version: "3.6"
+services:
+ app:
+  container_name: "app"
+  build: ./services/app
+  ports:
+   - 4002:4002
+  environment:
+   - PORT=4002
+   - NODE_ENV=production
+   - DATABASE_URL=postgresql://postgres:DSgd20Me80WEdKRy@db.cfeildycfxvegknoxmvl.supabase.co:5432/postgres
+  volumes:
+   - ./services/app:/user/local/app
+ user:
+  container_name: "user"
+  build: ./services/users
+  ports:
+    - 4001:4001
+  environment:
+    - PORT=4001
+ orchestrator:
+  build: ./orchestrator
+  ports:
+     - 80:4000
+  environment:
+     - PORT=4000
+     - BASE_URL_USER=http://user:4001/authors
+     - BASE_URL_PRODUCT=http://app:4002/product
