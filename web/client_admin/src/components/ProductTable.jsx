@@ -137,9 +137,8 @@ export default function ProductTable() {
                                                                         </span>
                                                                     </button>
                                                                 </div>
-                                                                {/*body*/}
                                                                 <div
-                                                                    className="relative p-6 flex-auto"
+                                                                    className="relative p-10 flex-auto overflow-scroll gap-3"
                                                                     style={{
                                                                         display:
                                                                             "flex",
@@ -163,14 +162,13 @@ export default function ProductTable() {
                                                                                     }
                                                                                     style={{
                                                                                         maxHeight:
-                                                                                            "300px", // Set the maximum height as desired
+                                                                                            "300px",
                                                                                     }}
                                                                                 />
                                                                             );
                                                                         }
                                                                     )}
                                                                 </div>
-                                                                {/*footer*/}
                                                                 <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
                                                                     <button
                                                                         className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
