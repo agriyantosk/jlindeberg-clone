@@ -5,15 +5,13 @@ import { Provider } from "react-redux";
 import store from "./store";
 
 function App() {
-    return (
-        <>
-            <div className="ml-64">
-                <Provider store={store}>
-                    <RouterProvider router={router} />
-                </Provider>
-            </div>
-        </>
-    );
+  return (
+    <>
+      <Provider store={store}>
+        <RouterProvider router={router} />
+      </Provider>
+    </>
+  );
 }
 
 export default App;

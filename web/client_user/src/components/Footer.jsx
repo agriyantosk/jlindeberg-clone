@@ -86,7 +86,7 @@ export default function Footer() {
             <br />
             <br />
             <div className="flex flex-wrap justify-center font-bold items-center mx-auto max-w-screen-xl p-4">
-                <h1 className="flex items-center text-9xl text-white">
+                <h1 className="flex items-center text-4xl md:text-9xl text-white">
                     J. LINDEBERG
                 </h1>
             </div>
