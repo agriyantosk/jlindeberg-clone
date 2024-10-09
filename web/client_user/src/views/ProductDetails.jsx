@@ -49,7 +49,7 @@ export default function ProductDetails() {
 
   useEffect(() => {
     if (productDetails && productDetails.mainImg) {
-      setSelectedImage(productDetails.Images[0].imgUrl);
+      setSelectedImage(productDetails.mainImg);
     }
   }, [productDetails]);
 
@@ -83,37 +83,24 @@ export default function ProductDetails() {
               <img
                 alt="img-tag-one"
                 className="md:w-48 md:h-48 w-32 h-32 cursor-pointer"
-                src="https://i.ibb.co/cYDrVGh/Rectangle-245.png"
+                src={productDetails && productDetails.mainImg}
                 onClick={() =>
-                  setSelectedImage(
-                    "https://i.ibb.co/QMdWfzX/component-image-one.png"
-                  )
+                  setSelectedImage(productDetails && productDetails.mainImg)
                 }
               />
-              <img
-                alt="img-tag-two"
-                className="md:w-48 md:h-48 w-32 h-32 cursor-pointer"
-                src="https://i.ibb.co/f17NXrW/Rectangle-244.png"
-                onClick={() =>
-                  setSelectedImage("https://i.ibb.co/f17NXrW/Rectangle-244.png")
-                }
-              />
-              <img
-                alt="img-tag-three"
-                className="md:w-48 md:h-48 w-32 h-32 cursor-pointer"
-                src="https://i.ibb.co/cYDrVGh/Rectangle-245.png"
-                onClick={() =>
-                  setSelectedImage("https://i.ibb.co/cYDrVGh/Rectangle-245.png")
-                }
-              />
-              <img
-                alt="img-tag-four"
-                className="md:w-48 md:h-48 w-32 h-32 cursor-pointer"
-                src="https://i.ibb.co/f17NXrW/Rectangle-244.png"
-                onClick={() =>
-                  setSelectedImage("https://i.ibb.co/f17NXrW/Rectangle-244.png")
-                }
-              />
+              ;
+              {productDetails &&
+                productDetails.Images.map((el, index) => {
+                  return (
+                    <img
+                      key={index}
+                      alt="img-tag-one"
+                      className="md:w-48 md:h-48 w-32 h-32 cursor-pointer"
+                      src={el.imgUrl}
+                      onClick={() => setSelectedImage(el.imgUrl)}
+                    />
+                  );
+                })}
             </div>
           </div>
           <div className="xl:w-2/5 md:w-1/2 lg:ml-8 md:ml-6 md:mt-0 mt-6">

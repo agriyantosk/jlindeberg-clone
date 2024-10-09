@@ -9,7 +9,7 @@ import {
 import "pure-react-carousel/dist/react-carousel.es.css";
 // import { useDispatch, useSelector } from "react-redux";
 import { Typography } from "@material-tailwind/react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 // import { fetchProduct } from "../store/actions/actionCreator";
 
 export default function HomeCard({ products }) {
@@ -106,32 +106,29 @@ export default function HomeCard({ products }) {
                       products.slice(0, 10).map((el, index) => {
                         return (
                           <Slide index={index}>
-                            <a
-                              href="#"
-                              onClick={() => {
-                                navigate(`/product/${el.id}`);
-                              }}
-                            >
-                              <div
-                                className="flex flex-shrink-0 relative w-full sm:w-auto"
-                                key={el.id}
-                              >
-                                <img
-                                  src={el.mainImg}
-                                  className="object-cover object-center w-max h-full"
-                                />
-                                <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                  <h2 className="lg:text-xl leading-4 text-base lg:leading-5 text-white">
-                                    ${el.price}
-                                  </h2>
-                                  <div className="flex h-full items-end pb-6">
-                                    <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">
-                                      {el.name}
-                                    </h3>
+                            <Link to={`/product/${el.id}`}>
+                              <a href="#">
+                                <div
+                                  className="flex flex-shrink-0 relative w-full sm:w-auto"
+                                  key={el.id}
+                                >
+                                  <img
+                                    src={el.mainImg}
+                                    className="object-cover object-center w-max h-full"
+                                  />
+                                  <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                                    <h2 className="lg:text-xl leading-4 text-base lg:leading-5 text-white">
+                                      ${el.price}
+                                    </h2>
+                                    <div className="flex h-full items-end pb-6">
+                                      <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">
+                                        {el.name}
+                                      </h3>
+                                    </div>
                                   </div>
                                 </div>
-                              </div>
-                            </a>
+                              </a>
+                            </Link>
                           </Slide>
                         );
                       })}
