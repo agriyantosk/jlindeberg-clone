@@ -82,10 +82,5 @@ module.exports = (sequelize, DataTypes) => {
       modelName: "Author",
     }
   );
-  Author.beforeCreate((user, options) => {
-    console.log("lewat sini");
-    const hash = hashPassword(user.password);
-    user.password = hash;
-  });
   return Author;
 };
