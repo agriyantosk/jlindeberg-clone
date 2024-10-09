@@ -4,11 +4,15 @@ import RegisterForm from "../components/RegisterForm";
 import SideBar from "../components/SideBar";
 
 export default function RegisterPage() {
-    return (
-        <>
-            <Logo />
-            <SideBar />
-            <RegisterForm />
-        </>
-    );
+  return (
+    <>
+      <div className="h-screen flex flex-row">
+        <SideBar />
+        <div className="flex flex-col flex-grow h-full justify-center px-[10%]">
+          <Logo />
+          <RegisterForm />
+        </div>
+      </div>
+    </>
+  );
 }

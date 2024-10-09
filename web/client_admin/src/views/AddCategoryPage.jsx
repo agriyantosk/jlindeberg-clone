@@ -2,10 +2,12 @@ import CategoryForm from "../components/CategoryForm";
 import SideBar from "../components/SideBar";
 
 export default function AddCategory() {
-    return (
-        <>
-            <SideBar />
-            <CategoryForm />
-        </>
-    );
+  return (
+    <>
+      <div className=" flex h-screen">
+        <SideBar />
+        <CategoryForm />
+      </div>
+    </>
+  );
 }

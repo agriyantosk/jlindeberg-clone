@@ -5,13 +5,13 @@ import ProductTable from "../components/ProductTable";
 export default function HomePage() {
   return (
     <>
-      {/* <div className="flex flex-col gap-8"> */}
-      <Logo />
-      <div>
+      <div className="h-screen flex">
         <SideBar />
-        <ProductTable />
+        <div className="py-[5%] px-[10%]">
+          <Logo />
+          <ProductTable />
+        </div>
       </div>
-      {/* </div> */}
     </>
   );
 }
