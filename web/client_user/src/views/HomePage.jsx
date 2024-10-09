@@ -1,3 +1,6 @@
+import dotenv from "dotenv";
+dotenv.config();
+
 import Categories from "../components/Categories";
 import Footer from "../components/Footer";
 import HomeCard from "../components/HomeCard";
@@ -13,12 +16,12 @@ export default function HomePage() {
   const [categories, setCategories] = useState();
   const [products, setProducts] = useState();
   const getCategories = async () => {
-    const response = await axios.get("http://localhost:3000/category");
+    const response = await axios.get(`${process.env.BASE_URL}/category`);
     setCategories(response?.data);
   };
 
   const getProducts = async () => {
-    const response = await axios.get("http://localhost:3000/product");
+    const response = await axios.get(`${process.env.BASE_URL}/product`);
     setProducts(response?.data);
   };
 

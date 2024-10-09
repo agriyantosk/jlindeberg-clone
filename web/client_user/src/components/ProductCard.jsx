@@ -17,7 +17,7 @@ export default function ProductCard() {
   const [searchParams] = useSearchParams();
   const categoryParams = searchParams.get("category");
   const getProducts = async () => {
-    const response = await axios.get("http://localhost:3000/product", {
+    const response = await axios.get(`${process.env.BASE_URL}/product`, {
       params: { category: categoryParams || "" },
     });
     setProducts(response?.data);

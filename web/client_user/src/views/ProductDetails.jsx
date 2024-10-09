@@ -31,18 +31,18 @@ export default function ProductDetails() {
   //     return state.productDetails;
   // });
   const getProductDetails = async () => {
-    const response = await axios.get("http://localhost:3000/product/" + id);
+    const response = await axios.get(`${process.env.BASE_URL}/product/${id}`);
     console.log(response);
     setProductDetails(response?.data);
   };
 
   const getCategories = async () => {
-    const response = await axios.get("http://localhost:3000/category");
+    const response = await axios.get(`${process.env.BASE_URL}/category`);
     setCategories(response?.data);
   };
 
   const getProducts = async () => {
-    const response = await axios.get("http://localhost:3000/product");
+    const response = await axios.get(`${process.env.BASE_URL}/product`);
     setProducts(response?.data);
   };
 
