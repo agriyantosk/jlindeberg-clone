@@ -68,7 +68,7 @@ export default function Details({ navigation, route }) {
   const fetchData = async () => {
     try {
       const response = await fetch(
-        "http://192.168.18.41:3000/product/" + productId
+        `https://jlind.griyan.site/product/${productId}`
       );
       if (!response.ok) {
         response.text();
@@ -138,7 +138,6 @@ export default function Details({ navigation, route }) {
 
   useEffect(() => {
     fetchData();
-    console.log(product, ">>>");
   }, []);
   return (
     <ScrollView>

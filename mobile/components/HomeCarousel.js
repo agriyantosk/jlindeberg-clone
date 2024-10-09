@@ -35,17 +35,14 @@ export default function HomeCarousel() {
       }
       setCurrentIndex(newIndex);
       scrollToIndex(newIndex);
-    }, 2000);
+    }, 3000); // increased time for smooth transition
 
     return () => clearInterval(interval);
   }, [currentIndex]);
 
   const renderItems = ({ item }) => {
     return (
-      <TouchableOpacity
-        onPress={() => console.log("clicked")}
-        activeOpacity={1}
-      >
+      <TouchableOpacity activeOpacity={1}>
         <Image source={{ uri: item.url }} style={styles.image} />
         <View style={styles.footer}>
           <Text style={styles.footerText}>{item.title}</Text>
@@ -70,10 +67,7 @@ export default function HomeCarousel() {
           style={styles.carousel}
           viewabilityConfig={viewConfigRef}
           onViewableItemsChanged={onViewRef.current}
-          horizontal={false}
-          scrollEnabled={false}
-          showsVerticalScrollIndicator={false}
-          nestedScrollEnabled={true}
+          horizontal // set to horizontal for horizontal carousel scrolling
         />
 
         <View style={styles.dotView}>
@@ -101,14 +95,15 @@ const styles = StyleSheet.create({
   },
   carouselContainer: {
     width: "100%",
+    height: "100%", // Adjust to limit the height of the carousel
   },
   carousel: {
-    maxHeight: "100%",
+    width: "100%",
   },
   image: {
     width,
-    height: "100%",
-    resizeMode: "cover",
+    height: height * 0.216, // Full height for the image to prevent blank space
+    resizeMode: "cover", // Ensures the image scales correctly
   },
   footer: {
     flexDirection: "row",
@@ -116,10 +111,10 @@ const styles = StyleSheet.create({
     height: 50,
     paddingHorizontal: 40,
     alignItems: "center",
-    backgroundColor: "#000",
+    backgroundColor: "#fff",
   },
   footerText: {
-    color: "#fff",
+    color: "#000",
     fontSize: 18,
     fontWeight: "bold",
   },
