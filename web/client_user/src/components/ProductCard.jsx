@@ -11,13 +11,14 @@ import { Link as Links } from "react-router-dom";
 import { useState } from "react";
 import axios from "axios";
 import { useSearchParams } from "react-router-dom";
+const baseUrl = import.meta.env.VITE_BASE_URL;
 
 export default function ProductCard() {
   const [products, setProducts] = useState([]);
   const [searchParams] = useSearchParams();
   const categoryParams = searchParams.get("category");
   const getProducts = async () => {
-    const response = await axios.get(`${process.env.BASE_URL}/product`, {
+    const response = await axios.get(`${baseUrl}/product`, {
       params: { category: categoryParams || "" },
     });
     setProducts(response?.data);

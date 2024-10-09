@@ -16,6 +16,7 @@ import {
 import "pure-react-carousel/dist/react-carousel.es.css";
 import Footer from "../components/Footer";
 import HomeCard from "../components/HomeCard";
+const baseUrl = import.meta.env.VITE_BASE_URL;
 
 export default function ProductDetails() {
   const { id } = useParams();
@@ -31,18 +32,18 @@ export default function ProductDetails() {
   //     return state.productDetails;
   // });
   const getProductDetails = async () => {
-    const response = await axios.get(`${process.env.BASE_URL}/product/${id}`);
+    const response = await axios.get(`${baseUrl}/product/${id}`);
     console.log(response);
     setProductDetails(response?.data);
   };
 
   const getCategories = async () => {
-    const response = await axios.get(`${process.env.BASE_URL}/category`);
+    const response = await axios.get(`${baseUrl}/category`);
     setCategories(response?.data);
   };
 
   const getProducts = async () => {
-    const response = await axios.get(`${process.env.BASE_URL}/product`);
+    const response = await axios.get(`${baseUrl}/product`);
     setProducts(response?.data);
   };
 
